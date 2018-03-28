@@ -20,6 +20,9 @@
     height: 80px;
     border-radius: 50%;
     background-color: gray;
+    background-image: url("https://archive.fo/AbHSb/5323cecddb98416898436186c268e4bd06b20c51.jpg");
+    background-position: center; 
+    background-size: 80px;
 }
 .row{
     width: 100%;
