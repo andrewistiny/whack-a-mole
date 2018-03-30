@@ -1,7 +1,7 @@
 window.onload = function() {
     var dirt = document.getElementsByClassName("dirt");
     var sound = document.getElementById("whack");
-    var lose = document.getElementById("lose");
+    var lose = document.getElementById("lose"); 
     var grid = document.getElementById("dirt-box");
     var score = 0;
     for (let i = 0; i < dirt.length ; i++ ){
