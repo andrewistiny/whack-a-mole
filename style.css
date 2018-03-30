@@ -1,19 +1,24 @@
+body{
+    text-align: center;
+}
 #container{
     width: 100%;
     height:100%;
     display: flex;
-    margin: auto;
+    margin-top: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
 }
 
 #dirtbox {
-    width: 600px;
-    height: 600px;
-    background-color: rgb(127,204,51);
+    width: 500px;
+    height: 500px;
+    background-color: rgb(55, 31, 165);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     border-radius: 30px;
-    border: solid 10px darkgreen;
+    border: solid 10px rgb(18, 12, 71);
 }
 .mole{
     width: 80px;
@@ -33,6 +38,6 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color:   rgb(205,133,63);
-    border: solid 10px rgb(139,69,19);
+    background-color:   rgb(38, 0, 255);
+    border: solid 10px rgb(18, 12, 71);
 }
